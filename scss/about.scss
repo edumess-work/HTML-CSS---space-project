@@ -1,0 +1,49 @@
+#about-orbit{
+
+    
+   
+
+h6{
+        color: rgb(42, 157, 165);
+    }
+
+
+    h1{
+    font-size: 100px;
+    font-family: 'black ops one';
+
+@media (max-width: 768px){
+    font-size: 50px;
+}
+
+}
+
+
+#boundaries{
+    color: rgb(22, 126, 224);
+}
+
+p{
+    width: fit-content;
+    color: white;
+    padding-bottom: 50px;
+    }
+
+
+
+}
+
+
+#our-purpose{
+    padding: 50px 50px;
+    text-align: center;
+    background-color: rgb(20, 16, 39);
+    border-bottom: 40px solid black;
+}
+
+#what-we-cover{
+    margin-top: 60px;
+    border-left: 1px solid white;
+    font-family: monospace;
+
+}

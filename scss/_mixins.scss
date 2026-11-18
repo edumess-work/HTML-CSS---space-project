@@ -1,0 +1,52 @@
+@mixin side-style{
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 300px;
+ 
+    
+    
+    h2{
+        font-family: 'Redaction 50';
+        font-size: 70px;
+    }
+
+    p{
+        font-family: 'black ops one';
+        font-size: 30px;
+    }
+}
+
+
+
+#logo{
+    font-size: 50px;
+    font-weight: 400px;
+    font-family:cursive;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+@mixin header-style{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    background: rgba(10, 15, 30,0.7);
+    backdrop-filter: blur(10px) ;
+
+   
+    
+    a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Isometra';
+        
+    }
+
+    #logo{
+        color:blue;
+    }
+}

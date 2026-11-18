@@ -1,0 +1,227 @@
+@use 'mixins';
+
+#navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    background: rgba(10, 15, 30,0.7);
+    backdrop-filter: blur(10px) ;
+    
+    a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Isometra';
+        
+    }
+
+    #logo{
+        color:blue;
+    }
+}
+
+
+
+.start{
+    text-align: center;
+    font-family: 'Rubik Storm';
+    padding: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    p{
+        color: rgb(252, 252, 255)
+    }
+
+}
+
+
+
+#planets{
+
+    text-align: center;
+
+    
+
+}
+
+#mecury{
+      margin-bottom: 100px;
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      font-family: 'black ops one';
+
+      #mec{
+        font-size: 40px;
+        text-transform: uppercase;
+        font-family: 'Rubik Storm';
+      }
+}
+
+
+#venus{
+      margin-bottom: 100px;
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      font-family: 'black ops one';
+
+     #ven{
+        font-size: 40px;
+        text-transform: uppercase;
+        font-family: 'Rubik Storm';
+      }
+}
+
+
+#mars{
+     margin-bottom: 100px;
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      font-family: 'black ops one';
+
+      #mar{
+        font-size: 40px;
+        text-transform: uppercase;
+        font-family: 'Rubik Storm';
+      }
+
+}
+
+#juptier{
+
+margin-bottom: 100px;
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    font-family: 'black ops one';
+
+
+    #jup{
+         font-size: 40px;
+        text-transform: uppercase;
+        font-family: 'Rubik Storm';
+    }
+
+
+}
+
+
+#uranus{
+
+    margin-bottom: 100px;
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      font-family: 'black ops one';
+
+
+      #ura{
+
+        font-size: 40px;
+        text-transform: uppercase;
+        font-family: 'Rubik Storm';
+      }
+}
+
+
+
+
+#neptune{
+
+margin-bottom: 100px;
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      font-family: 'black ops one';
+
+
+      #nep{
+
+        font-size: 40px;
+        text-transform: uppercase;
+        font-family: 'Rubik Storm';
+      }
+
+    
+}
+
+
+#earth{
+      margin-bottom: 100px;
+}
+
+#mars{
+    margin-bottom: 100px;
+}
+
+#juptier{
+    margin-bottom: 100px;
+}
+
+#saturn{
+    margin-bottom: 100px;
+
+}
+
+#uranus{
+    margin-bottom: 100px;
+}
+
+
+#neptune{
+    margin-bottom: 100px;
+}
+
+
+
+#stars{
+
+    font-family: 'Autour One';
+    font-size: 30px;
+    text-align: center;
+    p{
+        font-family: 'black ops one';
+    }
+    
+    
+    
+    
+    
+    
+    
+    @media (max-width: 768px){
+        font-size: 18px;
+
+p, li{
+    font-size: 16px;
+}
+
+    }
+    
+
+    
+}
+
+
+#our-solar{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    font-family: 'Redaction 50';
+}
+
+.planet {
+    @media (max-width: 768px){
+        flex-direction: column;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+   }
+
+
+   font-size: 30px;
+}

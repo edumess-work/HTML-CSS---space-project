@@ -1,0 +1,155 @@
+@use 'mixins';
+
+
+#side-1{
+    
+    @include mixins.side-style
+
+}
+
+
+
+#side-2 {
+     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50ox;
+
+    h2{
+        font-family: 'Redaction 50';
+        font-size: 70px;
+    }
+
+    p{
+        font-family: 'black ops one';
+        font-size: 30px;
+    }
+
+
+
+}
+
+#hero{ 
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Rubik Storm';
+    text-align: center;
+    margin-top: 150px;
+
+
+    @media (max-width: 768px){
+        flex-direction: column;
+}
+    
+
+}
+
+body{ 
+    background-image: url('/img/back.jpg');
+    color: var(--text-color);
+    transition: color 0,3s;
+}
+
+body.light-theme{
+    background-image: url('/img/bright.jpg');
+    background-color: var(--bg-color);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#navigation {
+    list-style: none;
+    background: var(--nav-bg);
+    backdrop-filter: blur(10px) ;
+    padding-right: 30px;
+    
+    a{
+        text-decoration: none;
+        color: var(--text-color);
+        font-family: 'Isometra';
+
+        
+    }
+
+    #logo{
+        color:blue;
+        @media (max-width: 768){
+            font-size: 30px;
+        }
+    }
+
+
+    #theme{
+        border: none;
+        color: var(--text-color);
+        cursor: pointer;
+        transition: color 0.3s;
+        background: transparent;
+    
+
+    
+       
+       
+        &:hover{
+            color: #4da6ff;
+        }
+
+    }
+}
+
+
+.card-group{
+    gap: 30px;
+    border-radius: 10px;
+}
+
+.card{
+    background-color: black;
+    color: wheat;
+    border-radius: 150px;
+
+    @media (max-width: 768px){
+        border-radius: 20px;
+    }
+
+
+}
+
+#explore{
+     margin-top: 30px;
+     text-align: center;
+     font-family: 'Redaction 50';
+     &:hover{ color: white;}
+}
+
+footer{
+    background-color: var(-- --nav-bg);
+    backdrop-filter: blur(30px);
+    justify-content: space-between;
+    display: flex;
+    padding: 100px;
+    margin-top: 50px;
+    align-items: center;
+    font-family: 'Limelight';
+    text-decoration: none;
+
+    ul{
+        list-style: none;
+    }
+    
+    a{
+        text-decoration: none;
+        color: var(--text-color)
+    }
+
+@media (max-width: 768px){
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 20px
+}
+
+
+}
